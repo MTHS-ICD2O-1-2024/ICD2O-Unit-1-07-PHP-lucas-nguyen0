@@ -23,42 +23,23 @@
     <title>Hello, World!, PHP</title>
   </head>
   <body>
-    </header>
-    <main class="mdl-layout__content">
-      <div class="page-content">
-        <?php echo '<p>Hello, World!, in PHP</p>'; ?>
-      </div>
-      <img src="./images/computer.jpg" />
-      <!-- Simple Textfield for integers-->
-      <form action="#">
-        <br />
-        <!-- Raised button with ripple -->
-      </form>
-    </main>
-    <script>
-      function myButtonClicked() {
-        alert("Hello, Wordl!")
-      }
-    </script>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Hello, World! with PHP</span>
+          <span class="mdl-layout-title">Hello, World!, PHP</span>
         </div>
       </header>
-      <main class="mdl-layout__content">
+      <main class="mdl-layout_a_content">
         <div class="page-content">
-          Click the button.
+          <?php echo '<p>Hello, World!, in PHP</p>'; ?>
         </div>
-        <!-- Colored raised button -->
-        <button
-          class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"
-          onclick="myButtonClicked()"
-        >
-          Click me!
-        </button>
-        <br />
-        <br />
+        <img src="./images/computer.jpg" />
+        <!-- Simple Textfield for integers-->
+        <form action="#">
+          <br />
+          <!-- Raised button with ripple -->
+        </form>
       </main>
     </div>
   </body>
